@@ -1,0 +1,511 @@
+2020-05-01 08:43:10 INFO  Ims:27 - What is your username
+2020-05-01 08:43:14 INFO  Ims:29 - What is your password
+2020-05-01 08:43:16 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 08:43:16 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 08:43:16 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 08:43:16 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 08:43:16 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 08:43:16 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 08:43:16 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 08:43:16 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 08:43:16 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 08:43:16 INFO  EntitySelection:28 - CUSTOMER: Information about customers
+2020-05-01 08:43:16 INFO  EntitySelection:28 - ORDER: Individual Items
+2020-05-01 08:43:16 INFO  EntitySelection:28 - INVENTORY: Purchases of items
+2020-05-01 08:43:16 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 08:43:30 INFO  Ims:38 - What would you like to do with customer:
+2020-05-01 08:43:30 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 08:43:30 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 08:43:30 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 08:43:30 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 08:43:30 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 08:46:38 INFO  Ims:27 - What is your username
+2020-05-01 08:46:41 INFO  Ims:29 - What is your password
+2020-05-01 08:46:42 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 08:46:42 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 08:46:42 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 08:46:42 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 08:46:42 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 08:46:42 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 08:46:42 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 08:46:42 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 08:46:42 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 08:46:42 INFO  EntitySelection:28 - CUSTOMER: Information about customers
+2020-05-01 08:46:42 INFO  EntitySelection:28 - ORDER: Individual Items
+2020-05-01 08:46:42 INFO  EntitySelection:28 - INVENTORY: Purchases of items
+2020-05-01 08:46:42 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 08:48:06 INFO  Ims:27 - What is your username
+2020-05-01 08:48:11 INFO  Ims:29 - What is your password
+2020-05-01 08:48:12 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 08:48:12 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 08:48:12 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 08:48:12 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 08:48:12 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 08:48:12 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 08:48:12 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 08:48:12 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 08:48:12 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 08:48:12 INFO  EntitySelection:28 - CUSTOMER: Information about customers
+2020-05-01 08:48:12 INFO  EntitySelection:28 - ORDER: Individual Items
+2020-05-01 08:48:12 INFO  EntitySelection:28 - INVENTORY: Purchases of items
+2020-05-01 08:48:12 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 08:50:56 INFO  Ims:27 - What is your username
+2020-05-01 08:50:58 INFO  Ims:29 - What is your password
+2020-05-01 08:50:59 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 08:50:59 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 08:50:59 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 08:50:59 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 08:50:59 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 08:50:59 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 08:50:59 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 08:50:59 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 08:50:59 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 08:50:59 INFO  EntitySelection:28 - CUSTOMER: Information about customers
+2020-05-01 08:50:59 INFO  EntitySelection:28 - ORDER: Individual Items
+2020-05-01 08:50:59 INFO  EntitySelection:28 - INVENTORY: Purchases of items
+2020-05-01 08:50:59 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 08:51:26 INFO  Ims:27 - What is your username
+2020-05-01 08:51:28 INFO  Ims:29 - What is your password
+2020-05-01 08:52:40 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 08:52:40 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 08:52:40 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 08:52:40 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 08:52:40 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 08:52:40 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 08:52:40 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 08:52:40 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 08:52:52 INFO  Ims:27 - What is your username
+2020-05-01 08:52:54 INFO  Ims:29 - What is your password
+2020-05-01 09:10:46 INFO  Ims:27 - What is your username
+2020-05-01 09:10:50 INFO  Ims:29 - What is your password
+2020-05-01 09:10:51 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 09:10:51 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 09:10:51 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 09:10:51 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 09:10:51 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 09:10:51 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 09:10:51 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 09:10:51 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 09:10:51 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 09:10:51 INFO  EntitySelection:28 - CUSTOMER: Information about customers
+2020-05-01 09:10:51 INFO  EntitySelection:28 - ORDER: Individual Items
+2020-05-01 09:10:51 INFO  EntitySelection:28 - INVENTORY: Purchases of items
+2020-05-01 09:10:51 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 09:14:06 INFO  Ims:27 - What is your username
+2020-05-01 09:14:09 INFO  Ims:29 - What is your password
+2020-05-01 09:14:10 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 09:14:10 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 09:14:10 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 09:14:10 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 09:14:10 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 09:14:10 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 09:14:10 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 09:14:10 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 09:14:10 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 09:14:10 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 09:14:10 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 09:14:10 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 09:14:10 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 09:14:15 INFO  Ims:38 - What would you like to do with customer:
+2020-05-01 09:14:15 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 09:14:15 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 09:14:15 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 09:14:15 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 09:14:15 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 09:14:39 INFO  Ims:27 - What is your username
+2020-05-01 09:14:40 INFO  Ims:29 - What is your password
+2020-05-01 09:14:41 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 09:14:41 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 09:14:41 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 09:14:41 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 09:14:41 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 09:14:41 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 09:14:41 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 09:14:41 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 09:14:41 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 09:14:42 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 09:14:42 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 09:14:42 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 09:14:42 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 09:14:44 INFO  Ims:38 - What would you like to do with order:
+2020-05-01 09:14:44 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 09:14:44 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 09:14:44 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 09:14:44 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 09:14:44 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 09:18:44 INFO  Ims:27 - What is your username
+2020-05-01 09:18:52 INFO  Ims:27 - What is your username
+2020-05-01 09:18:58 INFO  Ims:29 - What is your password
+2020-05-01 09:21:06 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 09:21:06 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 09:21:06 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 09:21:06 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 09:21:06 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 09:21:06 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 09:21:06 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 09:21:06 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 09:21:19 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 09:21:19 DEBUG Ims:114 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 09:21:19 DEBUG Ims:114 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 09:21:19 DEBUG Ims:114 - ims.Ims.init(Ims.java:104)
+2020-05-01 09:21:19 DEBUG Ims:114 - ims.Ims.init(Ims.java:80)
+2020-05-01 09:21:19 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:32)
+2020-05-01 09:21:19 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 09:21:19 ERROR Ims:116 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 09:39:39 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 09:39:39 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 09:39:39 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 09:39:39 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 09:39:39 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 09:39:44 INFO  Ims:38 - What would you like to do with customer:
+2020-05-01 09:39:44 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 09:39:44 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 09:39:44 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 09:39:44 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 09:39:44 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 09:40:19 INFO  Ims:34 - Which entity would you like to use?
+2020-05-01 09:40:19 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 09:40:19 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 09:40:19 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 09:40:19 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 09:40:27 INFO  Ims:38 - What would you like to do with order:
+2020-05-01 09:40:27 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 09:40:27 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 09:40:27 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 09:40:27 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 09:40:27 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 10:10:08 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:10:08 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:10:08 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:10:08 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:10:08 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:10:16 INFO  Ims:40 - What would you like to do with customer:
+2020-05-01 10:10:16 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 10:10:16 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 10:10:16 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 10:10:16 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 10:10:16 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 10:10:52 INFO  Ims:30 - What is your username
+2020-05-01 10:10:56 INFO  Ims:31 - What is your password
+2020-05-01 10:10:57 DEBUG Ims:116 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.Util.getInstance(Util.java:408)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:10:57 DEBUG Ims:116 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 10:10:57 DEBUG Ims:116 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 10:10:57 DEBUG Ims:116 - ims.Ims.init(Ims.java:106)
+2020-05-01 10:10:57 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:10:57 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:10:57 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:10:57 ERROR Ims:118 - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+2020-05-01 10:10:57 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:10:57 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:10:57 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:10:57 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:10:57 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:14:35 INFO  Ims:30 - What is your username
+2020-05-01 10:14:39 INFO  Ims:31 - What is your password
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2538)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3109)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:758)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+2020-05-01 10:14:42 DEBUG Ims:116 - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+2020-05-01 10:14:42 DEBUG Ims:116 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+2020-05-01 10:14:42 DEBUG Ims:116 - ims.Ims.init(Ims.java:106)
+2020-05-01 10:14:42 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:14:42 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:14:42 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:14:42 ERROR Ims:118 - The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false/' is not in this set.
+2020-05-01 10:14:42 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:14:42 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:14:42 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:14:42 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:14:42 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:15:23 INFO  Ims:30 - What is your username
+2020-05-01 10:15:26 INFO  Ims:31 - What is your password
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1536)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:15:29 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:15:29 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:15:29 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:15:29 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:15:29 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:15:29 ERROR Ims:118 - Can't create database 'inventorymstest'; database exists
+2020-05-01 10:15:29 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:15:29 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:15:29 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:15:29 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:15:29 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:18:42 INFO  Ims:30 - What is your username
+2020-05-01 10:18:44 INFO  Ims:31 - What is your password
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1536)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:18:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:18:46 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:18:46 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:18:46 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:18:46 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:18:46 ERROR Ims:118 - Can't create database 'inventorymstest'; database exists
+2020-05-01 10:18:46 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:18:46 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:18:46 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:18:46 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:18:46 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:20:57 INFO  Ims:30 - What is your username
+2020-05-01 10:21:07 INFO  Ims:31 - What is your password
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1536)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:21:09 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:21:09 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:21:09 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:21:09 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:21:09 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:21:09 ERROR Ims:118 - Can't create database 'inventorymstest'; database exists
+2020-05-01 10:21:09 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:21:09 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:21:09 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:21:09 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:21:09 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:24:22 INFO  Ims:30 - What is your username
+2020-05-01 10:24:25 INFO  Ims:31 - What is your password
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:473)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1471)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:24:27 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:24:27 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:24:27 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:24:27 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:24:27 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:24:27 ERROR Ims:118 - Can not issue empty query.
+2020-05-01 10:24:27 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:24:27 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:24:27 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:24:27 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:24:27 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:26:41 INFO  Ims:30 - What is your username
+2020-05-01 10:26:45 INFO  Ims:31 - What is your password
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:473)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1471)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:26:46 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:26:46 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:26:46 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:26:46 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:26:46 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:26:46 ERROR Ims:118 - Can not issue empty query.
+2020-05-01 10:26:46 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:26:46 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:26:46 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:26:46 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:26:46 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:27:33 INFO  Ims:40 - What would you like to do with stop:
+2020-05-01 10:27:33 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 10:27:33 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 10:27:33 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 10:27:33 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 10:27:33 INFO  CrudActions:28 - RETURN:Back to Menu
+2020-05-01 10:27:53 INFO  Ims:30 - What is your username
+2020-05-01 10:27:56 INFO  Ims:31 - What is your password
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:473)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1471)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:27:58 DEBUG Ims:116 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:27:58 DEBUG Ims:116 - ims.Ims.init(Ims.java:111)
+2020-05-01 10:27:58 DEBUG Ims:116 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:27:58 DEBUG Ims:116 - ims.Ims.ImsSystem(Ims.java:33)
+2020-05-01 10:27:58 DEBUG Ims:116 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:27:58 ERROR Ims:118 - Can not issue empty query.
+2020-05-01 10:27:58 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:27:58 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:27:58 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:27:58 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:27:58 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:30:29 INFO  Ims:29 - What is your username
+2020-05-01 10:30:32 INFO  Ims:31 - What is your password
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:473)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1471)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+2020-05-01 10:30:34 DEBUG Ims:114 - com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+2020-05-01 10:30:34 DEBUG Ims:114 - ims.Ims.init(Ims.java:109)
+2020-05-01 10:30:34 DEBUG Ims:114 - ims.Ims.init(Ims.java:82)
+2020-05-01 10:30:34 DEBUG Ims:114 - ims.Ims.ImsSystem(Ims.java:34)
+2020-05-01 10:30:34 DEBUG Ims:114 - ims.ImsRunner.main(ImsRunner.java:6)
+2020-05-01 10:30:34 ERROR Ims:116 - Can not issue empty query.
+2020-05-01 10:30:34 INFO  Ims:36 - Which entity would you like to use?
+2020-05-01 10:30:34 INFO  EntitySelection:28 - CUSTOMER: Access Customers Table
+2020-05-01 10:30:34 INFO  EntitySelection:28 - ORDER: Access Orders Table
+2020-05-01 10:30:34 INFO  EntitySelection:28 - INVENTORY: Access Inventory Table
+2020-05-01 10:30:34 INFO  EntitySelection:28 - STOP: To close the application
+2020-05-01 10:30:38 INFO  Ims:40 - What would you like to do with customer:
+2020-05-01 10:30:38 INFO  CrudActions:28 - CREATE:Create a new item in the database
+2020-05-01 10:30:38 INFO  CrudActions:28 - READ:Select an item to read from the database
+2020-05-01 10:30:38 INFO  CrudActions:28 - UPDATE:Update an item in the database
+2020-05-01 10:30:38 INFO  CrudActions:28 - DELETE:Delete an item from the database
+2020-05-01 10:30:38 INFO  CrudActions:28 - RETURN:Back to Menu
